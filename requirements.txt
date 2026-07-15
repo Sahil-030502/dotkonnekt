@@ -1,0 +1,25 @@
+# API
+fastapi
+uvicorn
+python-multipart
+sse-starlette
+
+# LangGraph (orchestration) — this is the required stack
+langgraph
+
+# OpenAI SDK (LLM + embeddings) — direct, no LangChain wrapper
+openai
+
+# Vector store — native ChromaDB client
+chromadb
+
+# PDF parsing — direct PyMuPDF, no third-party doc intelligence
+pymupdf
+pillow
+
+# MCP server/client
+mcp
+
+# Utilities
+python-dotenv
+typing_extensions

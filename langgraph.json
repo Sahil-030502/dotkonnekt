@@ -1,0 +1,6 @@
+{
+  "graphs": {
+    "document_intelligence": "./src/graphs/agent.py:build_graph"
+  },
+  "dependencies": ["."]
+}

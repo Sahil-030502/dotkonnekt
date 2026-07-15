@@ -1,0 +1,65 @@
+# ==========================
+# OpenAI Configuration
+# ==========================
+
+OPENAI_API_KEY= usse your OWN API_KEY
+
+MODEL_NAME=gpt-4o
+
+EMBEDDING_MODEL=text-embedding-3-small
+
+
+# ==========================
+# FastAPI Authentication
+# ==========================
+
+API_KEY=123456
+
+
+# ==========================
+# Storage Paths
+# ==========================
+
+UPLOAD_DIR=uploads/pdfs
+
+IMAGE_DIR=uploads/images
+
+VECTOR_STORE_DIR=vector_store
+
+REPORT_DIR=src/storage/reports
+
+TRACE_DIR=src/storage/traces
+
+CHECKPOINT_DIR=src/storage/checkpoints
+
+
+# ==========================
+# Application Settings
+# ==========================
+
+CHUNK_SIZE=1000
+
+CHUNK_OVERLAP=200
+
+TOP_K_RESULTS=5
+
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Vector DB
+vector_store/
+
+# Uploaded files
+uploads/
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs
+*.log
